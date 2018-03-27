@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>form-val</title>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	<link rel="stylesheet" href="css/feedback.css">
+	
+	<script type="text/javascript" src="js/feedback.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h2>Form_validation</h2>
+		<form action="" name="feedback">
+
+			<label for="firstname">First Name</label>
+			<input type="text" name="firstname" id="firstname" placeholder="">
+
+			<label for="lastname">Last Name</label>
+			<input type="text" name="lastname" id="lastname" placeholder="">
+
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="">
+
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" placeholder="">
+
+			<label for="password">conform_Password</label>
+			<input type="password" name="cnfpassword" id="cnpassword" placeholder="">
+			<div class="registrationFormAlert" id="divCheckPasswordMatch"></div>
+			
+			<label for="experience">Overall Experience</label>
+			<div class="row">
+				<div class="col-sm-3">
+					<input type="radio" name="experience" value="VeryGood" checked>Very Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="experience" value="good" checked>Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="experience" value="Fair" checked>Fair<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="experience" value="Poor" checked>Poor<br>
+				</div>
+			</div>
+			<label for="response">Timely Response</label>
+			<div class="row">
+				<div class="col-sm-3">
+					<input type="radio" name="response" value="VeryGood" checked>Very Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="response" value="Good" checked>Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="response" value="Fair" checked>Fair<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="response" value="Poor" checked>Poor<br>
+				</div>
+
+			</div>
+			<label for="satisfaction">Overall Satisfaction</label>
+			<div class="row">
+				<div class="col-sm-3">
+					<input type="radio" name="satisfaction" value="VeryGood" checked>Very Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="satisfaction" value="Good" checked>Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="satisfaction" value="Fair" checked>Fair<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="satisfaction" value="Poor" checked>Poor<br>
+				</div>
+
+			</div>
+			<label for="ratings">Star Ratings</label>
+			<div class="row">
+				<div class="col-sm-12">
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				</div>
+			</div>
+
+			<button type="submit">Send-FeedBack</button>
+		</form>
+	</div>
+</body>
+<script src="feedback.js"></script>
+</html>
+

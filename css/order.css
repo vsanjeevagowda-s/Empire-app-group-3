@@ -1,8 +1,10 @@
 .heading {
 	    margin-left: 450px;
+	    margin-top: 50px;
 }
 .img{
 	margin-left: 100px;
+	margin-top: 90px;
 }
 .img1{
 	margin-left: 100px;
@@ -33,4 +35,13 @@
 .m{
 	text-align: center;
 
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:grey;
+   color: white;
+   text-align: center;
+   padding:30px;
 }

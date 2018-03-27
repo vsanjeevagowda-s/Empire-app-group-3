@@ -1,0 +1,38 @@
+$(document).ready(function() {
+	debugger
+$("#categri").hide();
+$("#image").click(function(){
+	$("#categri").show();
+	$("#cat").hide();
+});
+$("#b").click(function()
+{
+$("#c").show();
+$("#b").hide();
+});
+$("#c").click(function()
+{
+$("#b").show();
+$("#c").hide();
+});
+$("#d").click(function()
+{
+$("#e").show();
+$("#d").hide();
+});
+$("#e").click(function()
+{
+$("#d").show();
+$("#e").hide();
+});
+$("#f").click(function()
+{
+$("#g").show();
+$("#f").hide();
+});
+$("#g").click(function()
+{
+$("#f").show();
+$("#g").hide();
+});
+});

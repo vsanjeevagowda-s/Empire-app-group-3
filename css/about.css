@@ -1,3 +1,14 @@
-body{
-	background-color:pink;
+.f{
+      width:50px
+      padding:20px;
+  }
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:grey;
+   color: white;
+   text-align: center;
+   padding:30px;
 }

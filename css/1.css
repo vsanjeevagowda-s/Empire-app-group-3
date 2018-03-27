@@ -18,7 +18,7 @@
       text-align: center;
       font-style:italic;
       font-size: 40px;
-      color:Navy;
+      color:white;
 
   }
   .h4{
@@ -86,4 +86,17 @@ filter:alpha(opacity=100);
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
 font-size: 25px;
+}
+.parallax {
+   
+    background-image: url("../images/em16.jpg");
+
+    
+    min-height: 500px; 
+
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

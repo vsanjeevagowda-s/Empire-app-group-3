@@ -1,72 +1,52 @@
+
 $(document).ready(function() {
-	debugger
-$("#categri").hide();
-$("#image").click(function(){
-	$("#categri").show();
-	$("#cat").hide();
-});
-$("#Previous").click(function(){
-	$("#cat").show();
-	$("#categri").hide();
-});
-$("#order").click(function()
-{
-$("#cancel").show();
-$("#order").hide();
-});
-$("#cancel").click(function()
-{
-$("#order").show();
-$("#cancel").hide();
-});
-$("#order1").click(function()
-{
-$("#cancel1").show();
-$("#order1").hide();
-});
-$("#cancel1").click(function()
-{
-$("#order1").show();
-$("#cancel1").hide();
-});
-$("#order2").click(function()
-{
-$("#cancel2").show();
-$("#order2").hide();
-});
-$("#cancel2").click(function()
-{
-$("#order2").show();
-$("#cancel2").hide();
-});
-$("#order3").click(function()
-{
-$("#cancel3").show();
-$("#order3").hide();
-});
-$("#cancel3").click(function()
-{
-$("#order3").show();
-$("#cancel3").hide();
-});
-$("#order4").click(function()
-{
-$("#cancel4").show();
-$("#order4").hide();
-});
-$("#cancel4").click(function()
-{
-$("#order4").show();
-$("#cancel4").hide();
-});
-$("#order5").click(function()
-{
-$("#cancel5").show();
-$("#order5").hide();
-});
-$("#cancel5").click(function()
-{
-$("#order5").show();
-$("#cancel5").hide();
-});
-});
+   
+$('.minus-btn').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+            
+            
+            if (value > 1) {
+                value = value - 1;
+            } else {
+                value = 0;
+            }
+        debugger
+
+        $input.val(value);
+        
+        });
+ 
+        $('.plus-btn').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+            if (value < 100) {
+            value = value + 1;
+            } else {
+                value =100;
+            }
+
+            $input.val(value);
+            $demo.val(value);
+        });
+        // $("#veg").hide();
+        // $("non_veg").click(function(){
+        //     $("non").show();
+        //     $("#veg").hide();
+
+        // });
+        //  $("#non").hide();
+        // $("veg").click(function(){
+        //     $("#non_veg").hide();
+        //     $("#veg").show();
+
+        // });
+        // $('.plus-btn').on('click', function(e) {
+        //     e.preventDefault();
+        //     var $this = $(this);
+        //     var $a=$(".add").$this;
+    });

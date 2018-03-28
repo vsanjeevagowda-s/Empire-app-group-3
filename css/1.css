@@ -56,13 +56,15 @@
       font-style: italic;
 }
 .footer {
-   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
-   color: white;
+   background-color:PaleGoldenRod ;
+   color: marron ;
    text-align: center;
+   padding:15px;
+   margin-top: 80px;
+ 
 }
   .hovereffect {
 width:100%;

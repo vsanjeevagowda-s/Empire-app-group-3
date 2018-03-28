@@ -12,6 +12,7 @@
 <body>
   <script type="text/javascript" src="js/1.js"></script>
  <div class="parallax">
+
   <div class="row">
     <div class="col-sm-4">
       <img src="images/emm.jpg" class="f">
@@ -40,14 +41,37 @@
             <li><a href="#">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="order.html">Order food</a></li>
-            <li><a href="#">Login</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+            <div id="id01" class="modal">
+              <form class="modal-content animate" action="">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  <img src="images/img2.jpeg" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+            </div>
+>>>>>>> uthsav
             <li><a href="#">sign in</a></li>
             <li><a href="Feedback.html">Feedback</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    </div>
+  </div>
 </div>
 </div>
 <div class="row wr">
@@ -151,10 +175,10 @@
 </div>
 </div>
 <div class="container">
-<div class="row footer">
+  <div class="row footer">
     <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
       <p>© All rights reserved 2018 Empire Group of Concerns.
-</p>
+      </p>
     </div>
     <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
       <p>Career Enquiry 080-40414069</p>
@@ -163,7 +187,27 @@
       <a href="www.empire hotel.com">hotel</a>
     </div>
   </div>
-  </div>
 </div>
-</body>
-</html>
+</div>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">subscribe</button>
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="">  
+        <input type="submit" name="submit">    
+      </div>
+    </body>
+    
+    </html>
+
+
+
+
+
+
+>>>>>>> uthsav

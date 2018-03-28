@@ -18,8 +18,8 @@ body {
 
 form {
 	padding: 20px;
-	background: #2c3e50;
-	color: #fff;
+	background: #939393;
+	color: black;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
@@ -36,7 +36,7 @@ form input {
 	height: 25px;
 	line-height: 25px;
 	background: #fff;
-	color: #000;
+	color: black;
 	padding: 0 6px;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -55,4 +55,7 @@ form .error {
 }
 .checked{
 	color:orange;
+}
+city{
+	ba:black;
 }

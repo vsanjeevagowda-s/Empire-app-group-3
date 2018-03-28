@@ -18,7 +18,7 @@
 <body>
 
 	<div class="container">
-		<h2>FeedBack Form</h2>
+		<h2><center>FeedBack Form</center></h2>
 		<form action="" name="feedback">
 
 			<label for="firstname">First Name</label>
@@ -29,29 +29,16 @@
 
 			<label for="email">Email</label>
 			<input type="email" name="email" id="email" placeholder="">
+			<label for="city">City</label><select name="city>
+			<option value="banglore">banglore</option>
+			<option value="mysore">Mysore</option>
+			<option value="mandya">Mandya</option>
 
-			<label for="password">Password</label>
-			<input type="password" name="password" id="password" placeholder="">
-
-			<label for="password">conform_Password</label>
-			<input type="password" name="cnfpassword" id="cnpassword" placeholder="">
+     </select>
+			<label for="phone">Phone Number</label>
+			<input type="text" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
 			<div class="registrationFormAlert" id="divCheckPasswordMatch"></div>
 			
-			<label for="experience">Overall Experience</label>
-			<div class="row">
-				<div class="col-sm-3">
-					<input type="radio" name="experience" value="VeryGood" checked>Very Good<br>
-				</div>
-				<div class="col-sm-3">
-					<input type="radio" name="experience" value="good" checked>Good<br>
-				</div>
-				<div class="col-sm-3">
-					<input type="radio" name="experience" value="Fair" checked>Fair<br>
-				</div>
-				<div class="col-sm-3">
-					<input type="radio" name="experience" value="Poor" checked>Poor<br>
-				</div>
-			</div>
 
 			<label for="response">Timely Response</label>
 			<div class="row">
@@ -67,7 +54,7 @@
 				<div class="col-sm-3">
 					<input type="radio" name="response" value="Poor" checked>Poor<br>
 				</div>
-				</div>
+			</div>
 
 			<label for="satisfaction">Overall Satisfaction</label>
 			<div class="row">
@@ -86,7 +73,7 @@
 
 			</div>
 
-			<label for="ratings">Star Ratings</label>
+			<center><label for="ratings">Star Ratings</label>
 			<div class="row">
 				<div class="col-sm-12">
 					<span class="fa fa-star checked"></span>
@@ -95,12 +82,11 @@
 					<span class="fa fa-star"></span>
 					<span class="fa fa-star"></span>
 				</div>
-			</div>
+			</div></center>
 
-			<button type="submit">Send-FeedBack</button>
+			<button type="submit">Submit-FeedBack</button>
 		</form>
 	</div>
 </body>
-<script src="feedback.js"></script>
 </html>
 

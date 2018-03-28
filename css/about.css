@@ -1,0 +1,11 @@
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:PaleGoldenRod ;
+   color: marron ;
+   text-align: center;
+   padding:15px;
+   margin-top: 80px;
+ 
+}

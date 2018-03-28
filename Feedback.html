@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>form-val</title>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	<link rel="stylesheet" href="css/feedback.css">
+	
+	<script type="text/javascript" src="js/feedback.js"></script>
+</head>
+<body>
+<div class="row">
+      <div class="col-sm-12">
+       <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><img src="images/lo.JPG" style="width:30px"></a></li>
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li class="dropdown">
+                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Order <span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                  <li><a href="order.html">Non-veg</a></li>
+                  <li><a href="order.html">Veg</a></li>
+                  <li><a href="#">Desserts</a></li>
+                  <li><a href="#">Drinks</a></li>
+                </ul>
+                <li><a href="Feedback.html">Feedback</a></li>
+                <li><a href="#">login</a></li>
+                <li><a href="#">sign up</a></li>
+                <li><a href="https://www.google-plus.com"><i class="fa fa-google-plus"></a></i></li> 
+                <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official"></a></i></li>
+                <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></a></i></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></a></i></li>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+	<div class="container">
+		<h2><center>FeedBack Form</center></h2>
+		<form action="" name="feedback">
+
+			<label for="firstname">First Name</label>
+			<input type="text" name="firstname" id="firstname" placeholder="">
+
+			<label for="lastname">Last Name</label>
+			<input type="text" name="lastname" id="lastname" placeholder="">
+
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="">
+			<label for="city">City</label><select name="city>
+			<option value="banglore">banglore</option>
+			<option value="mysore">Mysore</option>
+			<option value="mandya">Mandya</option>
+
+     </select>
+			<label for="phone">Phone Number</label>
+			<input type="text" name="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+			<div class="registrationFormAlert" id="divCheckPasswordMatch"></div>
+			
+
+			<label for="response">Timely Response</label>
+			<div class="row">
+				<div class="col-sm-3">
+					<input type="radio" name="response" value="VeryGood" checked>Very Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="response" value="Good" checked>Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="response" value="Fair" checked>Fair<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="response" value="Poor" checked>Poor<br>
+				</div>
+			</div>
+
+			<label for="satisfaction">Overall Satisfaction</label>
+			<div class="row">
+				<div class="col-sm-3">
+					<input type="radio" name="satisfaction" value="VeryGood" checked>Very Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="satisfaction" value="Good" checked>Good<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="satisfaction" value="Fair" checked>Fair<br>
+				</div>
+				<div class="col-sm-3">
+					<input type="radio" name="satisfaction" value="Poor" checked>Poor<br>
+				</div>
+
+			</div>
+
+			<center><label for="ratings">Star Ratings</label>
+			<div class="row">
+				<div class="col-sm-12">
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span>
+				</div>
+			</div></center>
+
+			<button type="submit">Submit-FeedBack</button>
+		</form>
+	</div>
+	<div class="row footer">
+  <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+    <p>© All rights reserved 2018 Empire Group of Concerns.</p>
+    <a href="https://www.google-plus.com"><i class="fa fa-google-plus"></i></a> 
+    <a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+
+  </div>
+  <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+    <img src="images/222.jpg"><h1>Reservation</h1>
+  </div>
+  <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+    <img src="images/call.jpg"><h1> +016467558939</h1>
+  </div>
+</div> 
+</body>
+</html>
+

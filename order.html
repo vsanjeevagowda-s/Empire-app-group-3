@@ -11,8 +11,45 @@
     <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
     <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
     <meta name="robots" content="noindex,follow" />
+    <link rel="stylesheet" type="text/css" href="css/order.css">
     </head>
   <body>
+  <div class="row">
+      <div class="col-sm-12">
+       <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><img src="images/lo.JPG" style="width:30px"></a></li>
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li class="dropdown">
+                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Order <span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                  <li><a href="order.html">Non-veg</a></li>
+                  <li><a href="order.html">Veg</a></li>
+                  <li><a href="#">Desserts</a></li>
+                  <li><a href="#">Drinks</a></li>
+                </ul>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="">login</a></li>
+                <li><a href="feedback.html">sign up</a></li>
+                <li><a href="https://www.google-plus.com"><i class="fa fa-google-plus"></a></i></li> 
+                <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official"></a></i></li>
+                <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></a></i></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></a></i></li>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
   <!-- <input id="add" value="0"> -->
    <div class="add" style="float:right">
    <button id="demo"></button>
@@ -463,45 +500,22 @@
       </div>
      </div>
     </div>
-
-     
-
-   <!--  <script type="text/javascript">
-      $('.minus-btn').on('click', function(e) {
-    		e.preventDefault();
-    		var $this = $(this);
-    		var $input = $this.closest('div').find('input');
-    		var value = parseInt($input.val());
-
-    		if (value > 1) {
-    			value = value - 1;
-    		} else {
-    			value = 0;
-    		}
-        debugger
-
-        $input.val(value);
-    	});
-
-    	$('.plus-btn').on('click', function(e) {
-    		e.preventDefault();
-    		var $this = $(this);
-    		var $input = $this.closest('div').find('input');
-    		var value = parseInt($input.val());
-
-    		if (value < 100) {
-      		value = value + 1;
-    		} else {
-    			value =100;
-    		}
-
-    		$input.val(value);
-    	});
-
-      $('.like-btn').on('click', function() {
-        $(this).toggleClass('is-active');
-      });
-    </script> -->
+    <div class="row footer">
+  <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+    <p>© All rights reserved 2018 Empire Group of Concerns.</p>
+    <a href="https://www.google-plus.com"><i class="fa fa-google-plus"></a></i> 
+          <a href="https://www.facebook.com"><i class="fa fa-facebook-official"></a></i>
+          <a href="https://www.twitter.com"><i class="fa fa-twitter"></a></i>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></a></i>
+  
+  </div>
+  <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+    <img src="images/222.jpg"><h1>Reservation</h1>
+  </div>
+  <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+    <img src="images/call.jpg"><h1> +016467558939</h1>
+  </div>
+</div> 
   </body>
   <script src="js/order.js"></script>
 </html>

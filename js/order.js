@@ -33,20 +33,20 @@ $('.minus-btn').on('click', function(e) {
             $input.val(value);
             $demo.val(value);
         });
-        // $("#veg").hide();
-        // $("non_veg").click(function(){
-        //     $("non").show();
-        //     $("#veg").hide();
+        $("#veg").hide();
+        $("non_veg").click(function(){
+            $("non").show();
+            $("#veg").hide();
 
-        // });
-        //  $("#non").hide();
-        // $("veg").click(function(){
-        //     $("#non_veg").hide();
-        //     $("#veg").show();
+        });
+         $("#non").hide();
+        $("veg").click(function(){
+            $("#non_veg").hide();
+            $("#veg").show();
 
-        // });
-        // $('.plus-btn').on('click', function(e) {
-        //     e.preventDefault();
-        //     var $this = $(this);
-        //     var $a=$(".add").$this;
+        });
+        $('.plus-btn').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $a=$(".add").$this;
     });

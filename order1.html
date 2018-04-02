@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+  <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+  <meta name="robots" content="noindex,follow" />
+  <link rel="stylesheet" type="text/css" href="css/order1.css">
+</head>
+<body > <!-- <!-- style="background-color:grey" --> 
+  <div class="row">
+    <div class="col-sm-12">
+     <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#"><img src="images/lo.JPG" style="width:30px"></a></li>
+              <li ><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li class="dropdown">
+               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Food <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                <li><a href="#" id="NonVeg">Non-veg</a></li>
+                <li><a href="#" id="VeG">Veg</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Drinks</a></li>
+              </ul>
+              <li><a href="Feedback.html">Feedback</a></li>
+              <!-- <li><a href="#">login</a></li> -->
+              <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+              <li><a href="#">sign up</a></li>
+              <li><a href="https://www.google-plus.com"><i class="fa fa-google-plus"></i></a></li> 
+              <li><a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i></a></li>
+              <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="cart-quantity" style="float:right">
+        <input id="qty1" type="button" value="0" name="qty"  />
+        <img src="images/c1.png" id="qty1">
+      </div>
+    </nav>
+  </div>
+</div>
+        
+   <!--     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTZQLB6" height="0" width="0" style="display:none;visibility:hidden"></iframe> -->
+   <!-- <div class="offer">
+    <section class="offer-widget ">
+      <div class="widget-container col-md-3 col-xs-12 padding0" style="height: 44.4134px;">
+        <img src="https://res.cloudinary.com/www-curefit-com/image/upload/w_360,ar_1020:228,fl_progressive,f_auto,q_auto/image/banners/offers/offer-eatfit-17.png" alt="EAT_OFFER_016" style="margin: 0px auto;">
+      </div>
+    </section>
+  </div> -->
+<a href="" class="scrollToTop">Scroll</a>
+  <div class="veg">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <center><h1>Veg Items</h1></center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Indian-Food-PNG-Clipart.png">
+          <div>Chole masala with alu-tikki</div>
+          <div>$200</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Indian-Food-PNG-Photos-320x279.png">
+          <div>Special Thali</div>
+          <div>$300</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Indian-Food-PNG-Pic-285x279.png">
+          <div>North indian Thali</div>
+          <div>$250</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Indian-Food-Transparent-Background-420x238.png">
+          <div>Samosha</div>
+          <div>$400</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Indian-Food-Transparent-PNG-420x233.png">
+          <div>Parata with Chole masala</div>
+          <div>$350</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Indian-Food-PNG-File-414x279.png">
+          <div>Dosa</div>
+          <div>$200</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Asian-Noodles-PNG-Clipart-277x279.png">
+          <div>Noddles</div>
+          <div>$150</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Indian-Food-PNG-Image.png">
+          <div>South Indian Thali</div>
+          <div>$200</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+        <div class="col-xs-4">
+          <img  class="img-responsive" src="images/Indian-Food-PNG-Transparent-Image-307x279 (1).png">
+          <div>Kichadi</div>
+          <div>$340</div>
+          <button class="btn btn-success" onclick="plus('qty1');">+</button>
+          <button class="btn btn-success" onclick="minus('qty1');">-</button>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="nonveg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+       <center> <h1>NoN-Veg Items</h1></center>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/Egg-Rolls-PNG-File-420x222.png">
+        <div>Egg-Rolls</div>
+        <div>$275</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/Grilled-Sausage-420x207.png">
+        <div>Grilled-Sausage</div>
+        <div>$370</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/Cooked-Meat-PNG-File-420x264.png">
+        <div>Chicken popcorn</div>
+        <div>$400</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/Cooked-Chicken-PNG-Transparent-Image-420x279.png">
+        <div>Grilled Chicken</div>
+        <div>$175</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/BBQ-Transparent-PNG-279x279.png">
+        <div>Kalmi Kabab</div>
+        <div>$580</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/BBQ-Transparent-Background-420x233.png">
+        <div>Tandoori tikka</div>
+        <div>$260</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/Asian-Noodles-PNG-Clipart-277x279.png">
+        <div>Chicken Noddles</div>
+        <div>$175</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/Gnocchi-PNG-Picture-388x279.png">
+        <div>Chicken mammos</div>
+        <div>$225</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+      <div class="col-xs-4">
+        <img  class="img-responsive" src="images/Cooked-Chicken-PNG-Image-418x279.png">
+        <div>Tandoori chicken</div>
+        <div>$370</div>
+        <button class="btn btn-success" onclick="plus('qty1');">+</button>
+        <button class="btn btn-success" onclick="minus('qty1');">-</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <div id="example1">
+      <h1>YOU ARE</h1>
+      <h1>WHAT YOU EAT.</h1>
+    </div>
+  </div>
+</div>
+<div class="row footer">
+  <div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+    <p>© All rights reserved 2018 Empire Group of Concerns.</p>
+    <a href="https://www.google-plus.com"><i class="fa fa-google-plus"></i></a> 
+    <a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+  </div>
+</div>
+</body>
+<script src="js/order1.js"></script>
+</html>

@@ -198,3 +198,22 @@ transition-delay:.2s;
     transform: translate(-50%, -50%);
 }
 
+@media screen and (min-width: 320px) {
+   #social {        
+      display: inline-block;
+   }
+}
+
+#social #container {
+  text-align: center;
+}
+
+#social #container ul {
+  float: left;
+}
+
+#social #container ul li {
+  float: left;
+  padding-left: 10px;
+  list-style-type: none;
+}

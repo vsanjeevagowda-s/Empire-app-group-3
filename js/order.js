@@ -2,7 +2,7 @@
 $(document).ready(function() {
    
 $('.minus-btn').on('click', function(e) {
-            e.preventDefault();
+            // e.preventDefault();
             var $this = $(this);
             var $input = $this.closest('div').find('input');
             var value = parseInt($input.val());
@@ -13,7 +13,6 @@ $('.minus-btn').on('click', function(e) {
             } else {
                 value = 0;
             }
-        debugger
 
         $input.val(value);
         
@@ -31,11 +30,10 @@ $('.minus-btn').on('click', function(e) {
             }
 
             $input.val(value);
-            $demo.val(value);
+            // $demo.val(value);
         });
         $("#veg").hide();
         $("#shw").click(function(){
-            debugger
             $("#non1").show();
             $("#veg").hide();
 
@@ -49,6 +47,20 @@ $('.minus-btn').on('click', function(e) {
             $("#shw").hide();
             $("#veg").show();
         });
+function plus(field) {
+ nr = parseInt(document.getElementById(field).value);
+ document.getElementById(field).value = nr + 1;
+}
+ 
+function minus(field) {
+ nr = parseInt(document.getElementById(field).value);
+ if (nr > 0) {
+   if( (nr - 1) > 0) {
+     document.getElementById(field).value = nr - 1;
+   }
+ }
+} 
+
     });
     //     $('.plus-btn').on('click', function(e) {
     //         e.preventDefault();

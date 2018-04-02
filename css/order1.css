@@ -1,0 +1,47 @@
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:PaleGoldenRod ;
+   color: marron ;
+   text-align: center;
+   padding:15px;
+   margin-top: 80px;
+ 
+}
+#example1 {
+    border: 10px  black;
+    padding: 100px;
+    background: url("images/10.png")  no-repeat center right;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    margin: 103px
+}
+.body{
+	 position: relative; 
+
+}
+.offer{
+	margin-left: 500px;
+}
+.scrollToTop{
+  /*width:100px; */
+  height:130px;
+  padding:35px; 
+  text-align:center; 
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position:fixed;
+  top:500px;
+  right:40px;
+  display:none;
+  background: url('https://image.flaticon.com/icons/svg/36/36905.svg') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+  text-decoration:none;
+}
